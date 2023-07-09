@@ -8,5 +8,10 @@
     "repository": "NoPrincessHere/proprietary_vendor_xiaomi_lisa",
     "target_path": "vendor/xiaomi/lisa",
     "remote": "gitlab"
+  },
+  {
+    "repository": "NoPrincessHere/proprietary_vendor_xiaomi_miuicamera-lisa",
+    "target_path": "vendor/xiaomi/miuicamera-lisa",
+    "remote": "gitlab"
   }
 ]

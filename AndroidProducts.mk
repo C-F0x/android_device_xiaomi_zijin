@@ -4,4 +4,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_lisa.mk
+    $(LOCAL_DIR)/custom_lisa.mk

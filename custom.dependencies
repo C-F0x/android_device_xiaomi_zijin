@@ -1,0 +1,12 @@
+[
+  {
+    "repository": "PixelOS-Devices/android_device_xiaomi_sm8350-common",
+    "target_path": "device/xiaomi/sm8350-common",
+    "remote": "github"
+  },
+  {
+    "repository": "NoPrincessHere/proprietary_vendor_xiaomi_lisa",
+    "target_path": "vendor/xiaomi/lisa",
+    "remote": "gitlab"
+  }
+]

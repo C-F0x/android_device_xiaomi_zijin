@@ -5,13 +5,28 @@
     "remote": "github"
   },
   {
-    "repository": "NoPrincessHere/proprietary_vendor_xiaomi_lisa",
-    "target_path": "vendor/xiaomi/lisa",
-    "remote": "gitlab"
+    "repository": "C-F0x/proprietary_vendor_xiaomi_zijin",
+    "target_path": "vendor/xiaomi/zijin",
+    "remote": "github"
   },
   {
-    "repository": "NoPrincessHere/proprietary_vendor_xiaomi_miuicamera-lisa",
-    "target_path": "vendor/xiaomi/miuicamera-lisa",
-    "remote": "gitlab"
+    "repository": "C-F0x/proprietary_vendor_xiaomi_miuicamera-zijin",
+    "target_path": "vendor/xiaomi/miuicamera-zijin",
+    "remote": "github"
+  },
+  {
+    "repository": "C-F0x/android_device_xiaomi_zijin",
+    "target_path": "device/xiaomi/zijin",
+    "remote": "github"
+  },
+  {
+    "repository": "PixelOS-Devices/android_kernel_xiaomi_sm8350",
+    "target_path": "kernel/xiaomi/sm8350",
+    "remote": "github"
+  },
+  {
+    "repository": "PixelOS-AOSP/android_hardware_xiaomi",
+    "target_path": "hardware/xiaomi",
+    "remote": "github"
   }
 ]

@@ -70,7 +70,7 @@ vendor/lib/rfsa/adsp/misound_res_headphone.bin
 vendor/lib/rfsa/adsp/misound_res_spk.bin
 
 # Audio Hardware
-vendor/lib/hw/audio.primary.lahaina.so:vendor/lib/hw/audio.primary.lisa.so;FIX_SONAME
+vendor/lib/hw/audio.primary.lahaina.so:vendor/lib/hw/audio.primary.zijin.so;FIX_SONAME
 vendor/lib/liba2dpoffload.so:odm/lib/liba2dpoffload.so;MODULE_SUFFIX=_odm
 vendor/lib/libadm.so
 vendor/lib/libaudio_log_utils.so
@@ -87,8 +87,8 @@ vendor/lib/libvideoNS.so;DISABLE_CHECKELF
 vendor/firmware/tfa98xx.cnt
 
 # Camera
-vendor/lib64/camera/com.qti.actuator.lisa_ofilm_s5kgw3_dw9800_wide.so
-vendor/lib64/camera/com.qti.actuator.lisa_semco_s5kgw3_dw9800_wide.so
+vendor/lib64/camera/com.qti.actuator.zijin_sunny_imx616_dw9714v_front.so
+vendor/lib64/camera/com.qti.actuator.zijin_semco_s5kgw3_dw9800_wide.so
 vendor/lib64/camera/com.qti.eeprom.lisa_ofilm_imx355_gt24p64e_ultra_eeprom.so
 vendor/lib64/camera/com.qti.eeprom.lisa_ofilm_s5k5e9yx04_gt24p64e_macro_eeprom.so
 vendor/lib64/camera/com.qti.eeprom.lisa_ofilm_s5kgw3_gt24p128e_wide_eeprom.so

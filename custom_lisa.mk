@@ -3,22 +3,22 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Inherit from lisa device
-$(call inherit-product, device/xiaomi/lisa/device.mk)
+# Inherit from zijin device
+$(call inherit-product, device/xiaomi/zijin/device.mk)
 
 # Inherit some common PixelOS stuff.
 $(call inherit-product, vendor/custom/config/common_full_phone.mk)
 
 PRODUCT_BRAND := Xiaomi
-PRODUCT_DEVICE := lisa
+PRODUCT_DEVICE := zijin
 PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_MODEL := 2109119DG
-PRODUCT_NAME := custom_lisa
+PRODUCT_MODEL := 2109119BC
+PRODUCT_NAME := custom_zijin
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="lisa_global-user 14 UKQ1.240624.001 OS2.0.8.0.UKOMIXM release-keys" \
-    BuildFingerprint=Xiaomi/lisa_global/lisa:14/UKQ1.240624.001/OS2.0.8.0.UKOMIXM:user/release-keys \
-    DeviceProduct=lisa \
-    SystemName=lisa_global
+    BuildDesc="zijin_cn-user 14 UKQ1.231108.001 V816.0.12.0.ULPCNXM release-keys" \
+    BuildFingerprint=Xiaomi/zijin_cn/missi:14/UKQ1.231108.001/V816.0.12.0.ULPCNXM:user/release-keys
+    DeviceProduct=zijin \
+    SystemName=zijin_cn

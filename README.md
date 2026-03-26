@@ -1,26 +1,27 @@
 Copyright (C) 2022 The LineageOS Project
 
-Device configuration for Xiaomi 11 Lite 5G NE
+Device configuration for Xiaomi Civi 1S
 =========================================
 
-The Xiaomi 11 Lite 5G NE (codenamed _"lisa"_) is a mid-range smartphone from Xiaomi.
+The Xiaomi Civi 1S (codenamed _"zijin"_) is a mid-range smartphone from Xiaomi.
 
-It was released in September 2021.
+It was released in April 2022.
 
 ## Device specifications
 
 Basic   | Spec Sheet
 -------:|:-------------------------
-CPU     | Kryo 670, Up to 2.4 GHz, Octa-core CPU
-Chipset | Qualcomm Snapdragon 778G 5G (SM7325-2-AB)
+CPU     | Octa-core (1x2.5 GHz Cortex-A78 & 3x2.4 GHz Cortex-A78 & 4x1.9 GHz Cortex-A55)
+Chipset | Qualcomm SM7325 Snapdragon 778G Plus 5G (6 nm)
 GPU     | Adreno 642L
-Memory  | 6/8 GB, LPDDR4X
+Memory  | 8/12 GB, LPDDR4X
 Storage | 128/256 GB, UFS 2.2
-Shipped Android Version | 11
-Battery | Non-removable 4250 mAh
+Shipped Android Version | Android 12, MIUI 13 
+Battery | Non-removable 4500 mAh, 55W wired
 Display | 2400 x 1080 pixels, 6.55 inches
-Camera  | 64 MP main, 8 MP ultra-wide angle, 5 MP telemacro, 20 MP front
+Camera  | 64 MP main, 8 MP ultra-wide angle, 2 MP macro, 32 MP front
 
 ## Device picture
 
-![Xiaomi 11 Lite 5G NE](https://i01.appmifile.com/webfile/globalimg/products/pc/xiaomi-11-lite-5g-ne/specs_01-fix.png "Xiaomi 11 Lite 5G NE")
+![Xiaomi Civi 1S](https://cdn.cnbj1.fds.api.mi-img.com/product-images/xiaomicivi1sokm6kd/3066.png "Xiaomi Civi 1S")
+

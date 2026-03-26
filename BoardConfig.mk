@@ -3,16 +3,16 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/xiaomi/lisa
+DEVICE_PATH := device/xiaomi/zijin
 
 # Inherit from sm8350-common
 include device/xiaomi/sm8350-common/BoardConfigCommon.mk
 
 # Board
-TARGET_BOOTLOADER_BOARD_NAME := lisa
+TARGET_BOOTLOADER_BOARD_NAME := zijin
 
 # Kernel
-TARGET_KERNEL_CONFIG += vendor/lisa_QGKI.config
+TARGET_KERNEL_CONFIG += vendor/zijin_QGKI.config
 
 # Kernel modules
 BOOT_KERNEL_MODULES := \
@@ -40,4 +40,4 @@ TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 -include vendor/xiaomi/miuicamera-$(PRODUCT_DEVICE)/BoardConfig.mk
 
 # Include proprietary files
-include vendor/xiaomi/lisa/BoardConfigVendor.mk
+include vendor/xiaomi/zijin/BoardConfigVendor.mk

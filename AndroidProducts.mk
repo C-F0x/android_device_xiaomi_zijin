@@ -4,4 +4,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/custom_lisa.mk
+    $(LOCAL_DIR)/custom_zijin.mk

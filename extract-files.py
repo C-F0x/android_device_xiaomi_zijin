@@ -31,7 +31,7 @@ lib_fixups: lib_fixups_user_type = {
 blob_fixups: blob_fixups_user_type = {
     ('vendor/etc/camera/pureShot_parameter.xml', 'vendor/etc/camera/pureView_parameter.xml'): blob_fixup()
         .regex_replace(r'=(\d+)>', r'="\1">'),
-    'vendor/lib/hw/audio.primary.lisa.so': blob_fixup()
+    'vendor/lib/hw/audio.primary.zijin.so': blob_fixup()
         .replace_needed('/vendor/lib/liba2dpoffload.so', '/odm/lib/liba2dpoffload.so')
         .replace_needed('/vendor/lib/libssrec.so', '/odm/lib/libssrec.so')
         .replace_needed('libaudioroute.so', 'libaudioroute-v34.so'),
@@ -73,7 +73,7 @@ blob_fixups: blob_fixups_user_type = {
 
 
 module = ExtractUtilsModule(
-    'lisa',
+    'zijin',
     'xiaomi',
     blob_fixups=blob_fixups,
     lib_fixups=lib_fixups,

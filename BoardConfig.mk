@@ -11,6 +11,9 @@ include device/xiaomi/sm8350-common/BoardConfigCommon.mk
 # Board
 TARGET_BOOTLOADER_BOARD_NAME := zijin
 
+# Fingerprint
+TARGET_HAS_UDFPS := true
+
 # Kernel
 TARGET_KERNEL_CONFIG += vendor/zijin_QGKI.config
 
@@ -19,8 +22,8 @@ BOOT_KERNEL_MODULES := \
     adsp_loader_dlkm.ko \
     apr_dlkm.ko \
     goodix_core.ko \
+    goodix_fod.ko \
     hwid.ko \
-    mmhardware_sysfs_dlkm.ko \
     msm_drm.ko \
     q6_notifier_dlkm.ko \
     q6_pdr_dlkm.ko \

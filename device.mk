@@ -6,9 +6,6 @@
 # Inherit from sm8350-common
 $(call inherit-product, device/xiaomi/sm8350-common/common.mk)
 
-# Inherit MiuiCamera Makefile
-$(call inherit-product, vendor/xiaomi/miuicamera-zijin/device.mk)
-
 # Overlays
 PRODUCT_PACKAGES += \
     ApertureOverlayZijin
@@ -34,6 +31,10 @@ PRODUCT_COPY_FILES += \
 # WiFi Display
 PRODUCT_SYSTEM_PROPERTIES += \
     vendor.sys.video.disable.ubwc=1
+
+# Fix Cust partition
+PRODUCT_COPY_FILES += \
+    device/xiaomi/zijin/rootdir/cust/.keep:$(TARGET_COPY_OUT_SYSTEM)/cust/.keep
 
 # Call the proprietary setup
 $(call inherit-product, vendor/xiaomi/zijin/zijin-vendor.mk)
